@@ -1,0 +1,22 @@
+.contact-settings {
+    background-color: #111B21;
+    margin: 10px 0px;
+}
+
+.contact-settings a {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.contact-settings a span {
+    width: 50px;
+    display: flex;
+    align-items: center;
+    color: #8696A0;
+    justify-content: center;
+}
+
+.contact-settings a span:nth-child(2) {
+    margin-left: auto;
+}

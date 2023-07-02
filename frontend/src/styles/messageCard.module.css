@@ -1,0 +1,151 @@
+.message-card {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    margin: 2px 0px;
+    padding: 5px 10px;
+    font-size: 14px;
+    /* overflow: hidden; */
+    position: relative;
+}
+
+.message-card:hover>.message-options {
+    display: block;
+}
+
+.message-options {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px 5px;
+    display: none;
+    z-index: 40;
+}
+
+.message-options button {
+    background-color: transparent;
+    color: #9EAAB2;
+    cursor: pointer;
+}
+
+.message-options .options {
+    position: absolute;
+    top: 30px;
+    width: 150px;
+    border-radius: 4px;
+    overflow: hidden;
+    z-index: 100;
+    color: #000;
+    padding: 5px 0px;
+    box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.2);
+}
+
+.message-options .options li {
+    padding: 10px 20px;
+}
+
+.message-options .options li {
+    font-size: 14px;
+    display: block;
+    padding: 10px 20px;
+    width: 100%;
+    height: 100%;
+}
+
+.message-options .options li:hover {
+    cursor: pointer;
+}
+
+.message-options.active {
+    display: block;
+}
+
+.message-card.receiver_id {
+    border-radius: 0px 5px 5px 5px;
+}
+
+.message-card.sender_id {
+    border-radius: 5px 0px 5px 5px;
+    margin-left: auto;
+}
+
+.message-card.sender_id .message-options .options {
+    right: 5px;
+}
+
+.message-card.receiver_id .message-options .options {
+    left: 5px;
+}
+
+.message-card .message-text {
+    max-width: 350px;
+}
+
+.message-card .message-status {
+    display: flex;
+    justify-content: right;
+    color: #8696A0;
+    align-items: center;
+    font-size: 11px;
+}
+
+.message-card .message-status span {
+    display: flex;
+    align-items: center;
+}
+
+.message-card .message-date {
+    margin-right: 2px;
+}
+
+/* Light Theme */
+.message-card.sender_id.light,
+.message-card.sender_id.light .message-options {
+    background-color: #D9FDD3;
+}
+
+.message-card.receiver_id.light,
+.message-card.receiver_id.light .message-options {
+    background-color: #FFF;
+}
+
+.message-card.light .message-text {
+    color: #000;
+}
+
+/* Message Options */
+.message-card.light .message-options {
+    background-color: #FFF;
+}
+
+.message-card.light .options li:hover {
+    background-color: #F5F6F6;
+}
+
+/* Dark Theme */
+.message-card.sender_id.dark,
+.message-card.sender_id.dark .message-options {
+    background-color: #005C4B;
+}
+
+.message-card.receiver_id.dark,
+.message-card.receiver_id.dark .message-options {
+    background-color: #202C33;
+}
+
+.message-card.dark .message-text {
+    color: #FFF;
+}
+
+/* Message Options */
+.message-card.dark .options {
+    background-color: #233138;
+}
+
+.message-card.dark .options li {
+    color: #FFF;
+}
+
+.message-card.dark .options li:hover {
+    background-color: #182229;
+}

@@ -1,0 +1,125 @@
+.chat-header {
+    background-color: #202C33;
+    padding: 10px 15px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+    width: 70%;
+}
+
+.profile-img {
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 15px;
+}
+
+.profile-img img,
+.profile-img svg {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.chat-header nav {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.chat-header nav span {
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 50%;
+    margin: 0px 5px;
+}
+
+.options {
+    background-color: #233138;
+    position: absolute;
+    top: 110%;
+    right: 5px;
+    border-radius: 2px;
+    list-style-type: none;
+    width: 240px;
+    padding: 5px 0px;
+    box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.2);
+}
+
+
+.options li {
+    font-size: 14px;
+    text-align: left;
+}
+
+.options li a {
+    display: block;
+    padding: 10px 20px;
+    width: 100%;
+    height: 100%;
+}
+
+.options li:hover {
+    background-color: #182229;
+    cursor: pointer;
+}
+
+
+/* Light Theme */
+.chat-header.light {
+    background-color: #F0F2F5;
+    color: #54656F
+}
+
+.chat-header.light .options {
+    background: #FFF;
+}
+
+.chat-header.light .options li:hover {
+    background-color: #F5F6F6;
+    cursor: pointer;
+}
+
+.chat-header.light nav span.active {
+    background-color: #D9DBDE;
+}
+
+.chat-header.dark .background {
+    fill: #DFE5E7
+}
+
+/* Dark Theme */
+.chat-header.dark {
+    background-color: #202C33;
+    color: #FFF
+}
+
+.chat-header.dark .options {
+    background: #233138;
+}
+
+.chat-header.dark .options li:hover {
+    background-color: #182229;
+}
+
+.chat-header.dark nav span.active {
+    background-color: #374248;
+}
+
+.chat-header.dark .background {
+    fill: #6a7175
+}

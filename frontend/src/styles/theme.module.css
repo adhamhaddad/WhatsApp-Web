@@ -1,0 +1,118 @@
+.theme {
+    width: 500px;
+    height: 300px;
+    padding: 15px;
+}
+
+.theme h3 {
+    font-weight: normal;
+}
+
+.theme form {
+    display: flex;
+    padding: 10px 0px;
+    flex-direction: column;
+    height: 90%;
+}
+
+.theme .form-input {
+    margin: 10px 0px;
+    display: flex;
+    align-items: center;
+}
+
+.theme label {
+    font-size: 14px;
+}
+
+.theme input {
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+    accent-color: #00a884;
+    color: #FFF;
+    background-color: #FFF;
+}
+
+.theme .form-actions {
+    margin-top: auto;
+    text-align: right;
+}
+
+.theme .form-actions button {
+    height: 40px;
+    border-radius: 20px;
+    margin: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.cancel-button {
+    width: 100px;
+}
+
+.ok-button {
+    width: 70px;
+}
+
+/* Light Theme */
+.theme.light {
+    background-color: #FFF;
+}
+
+.theme.light h3 {
+    color: #111B21
+}
+
+.theme.light label {
+    color: #111B21
+}
+
+
+.theme.light .cancel-button {
+    background-color: #FFF;
+    color: #008069;
+    border: 1px solid #E9EDEF;
+}
+
+.theme.light .cancel-button:hover {
+    color: #06CF9C
+}
+
+.theme.light .ok-button {
+    color: #FFF;
+    background-color: #008069;
+}
+
+.theme.light .ok-button:hover {
+    background-color: #017561;
+}
+
+
+/* Dark Theme */
+.theme.dark {
+    background-color: #3B4A54;
+}
+
+.theme.dark h3 {
+    color: #FFF
+}
+
+.theme.dark .cancel-button {
+    background-color: #3B4A54;
+    color: #00a884;
+    border: 1px solid #465560;
+}
+
+.theme.dark .cancel-button:hover {
+    color: #06CF9C
+}
+
+.theme.dark .ok-button {
+    color: #000;
+    background-color: #00a884;
+}
+
+.theme.dark .ok-button:hover {
+    background-color: #06CF9C;
+}

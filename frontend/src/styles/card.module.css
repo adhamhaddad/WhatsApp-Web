@@ -1,0 +1,94 @@
+.card {
+    display: flex;
+    align-items: center;
+    padding: 0px 10px;
+}
+
+.card-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.card-image img,
+.card-image span svg {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.card-info {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    padding: 10px 0px;
+}
+
+.card-info .top-side,
+.card-info .bottom-side {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-info .name {
+    font-size: 16px;
+    font-weight: normal;
+    margin-right: auto;
+}
+
+.card-info .message {
+    font-size: 14px;
+}
+
+.date {
+    color: #00A884;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.count {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #00A884;
+    color: #000;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Light Theme */
+.card.light {
+    background-color: #FFF;
+    color: #111B21;
+}
+
+.card.light .card-info {
+    border-bottom: 1px solid #E9EDEF;
+}
+
+.card.light:hover,
+.card.light.active {
+    background-color: #F5F6F6;
+    cursor: pointer;
+}
+.card.light .background {
+    fill: #DFE5E7;
+}
+
+/* Dark Theme */
+.card.dark .card-info {
+    border-bottom: 1px solid #303D45;
+}
+
+.card.dark:hover,
+.card.dark.active {
+    background-color: #202C33;
+    cursor: pointer;
+}
+
+.card.dark .background {
+    fill: #6a7175;
+}

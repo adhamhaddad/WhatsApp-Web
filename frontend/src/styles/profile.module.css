@@ -1,0 +1,33 @@
+.profile-page {
+    width: 400px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow-x: hidden;
+}
+
+.profile-view {
+    overflow-y: auto;
+    height: 100%;
+    padding: 20px 0px;
+}
+.user-hint {
+    font-size: 14px;
+    /* Dark Theme */
+    color: #8696A0;
+    /* Light Theme */
+    color: #667781;
+    padding: 25px;
+}
+
+
+/* Light Theme */
+.profile-page.light {
+    background-color: #F0F2F5;
+}
+
+/* Dark Theme */
+.profile-page.dark {
+    background-color: #111B21;
+}

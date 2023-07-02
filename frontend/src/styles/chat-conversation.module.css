@@ -1,0 +1,18 @@
+.chat-conversation {
+    flex-grow: 1;
+    background-position: center;
+    background-size: contain;
+    padding: 10px 40px;
+    overflow-y: auto;
+}
+
+/* Light Theme */
+.chat-conversation.light {
+    background-image: url('../assets/images/conversation-background.png');
+
+}
+
+/* Dark Theme */
+.chat-conversation.dark {
+    background-image: url('../assets/images/conversation-background-dark.jpg');
+}

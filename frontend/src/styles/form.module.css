@@ -1,0 +1,56 @@
+.login-page,
+.register-page {
+    transform: translateY(20%);
+}
+
+.register-page p,
+.register-page h2,
+.login-page p,
+.login-page h2 {
+    text-align: center;
+}
+
+.form {
+    width: 300px;
+    margin: auto;
+}
+
+.form input {
+    width: 100%;
+}
+
+.form input:focus {
+    border: none;
+    outline: 2px solid #FFF;
+}
+
+.form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0px;
+    font-weight: bold;
+    border-radius: 4px;
+    border: none;
+    background-color: #FFF;
+    color: #000;
+    cursor: pointer;
+    transition: background .5s ease-in-out;
+}
+
+.form button:hover {
+    background-color: #ddd;
+    transition: background .5s ease-in-out;
+}
+
+@media screen and (max-width: 480px) {
+
+    .register-page h2,
+    .login-page h2 {
+        margin-top: 10px;
+    }
+    .form {
+        width: 100%;
+        margin: none;
+    }
+}

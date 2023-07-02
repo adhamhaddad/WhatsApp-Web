@@ -1,0 +1,75 @@
+.main {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    max-width: 1500px;
+    margin: auto;
+}
+
+.left-side {
+    display: flex;
+    flex-direction: column;
+    min-width: 400px;
+    height: 100%;
+}
+
+.right-side {
+    min-width: 400px;
+    flex-grow: 1;
+    height: 100%;
+}
+
+.whats-app-page {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.whats-app-logo {
+    margin-top: auto;
+}
+
+.whats-app-page h2 {
+    font-size: 30px;
+    font-weight: normal;
+    margin: 20px 0px;
+}
+
+.whats-app-paragraph {
+    font-size: 14px;
+    color: #667781
+}
+
+.message-type {
+    font-size: 12px;
+    margin-top: auto;
+    color: #8696A0;
+    margin-bottom: 30px;
+}
+
+/* Light Theme */
+.main.light {
+    background-color: #FFF;
+}
+
+.main.light .left-side {
+    border-right: 1px solid #E9EDEF;
+}
+
+.main.light .right-side {
+    background-color: #F0F2F5;
+}
+
+/* Dark Theme */
+.main.dark {
+    background-color: #111B21;
+}
+
+.main.dark .left-side {
+    border-right: 1px solid #303D45;
+}
+
+.main.dark .right-side {
+    background-color: #222E35;
+}

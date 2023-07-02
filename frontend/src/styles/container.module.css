@@ -1,0 +1,8 @@
+.container {
+    /* background-color: green; */
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+    /* background-color: green; */
+
+}

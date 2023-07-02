@@ -1,0 +1,59 @@
+.contact-info-page {
+    background-color: pink;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+
+.page-title {
+    height: 60px;
+    padding: 0px 0px 10px 20px;
+    display: flex;
+    align-items: end;
+}
+
+.page-title h1 {
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.page-title h1 span {
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.page-title h1 span a {
+    display: flex;
+    align-items: center;
+}
+
+.page-title h1 span svg {
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.contact-page {
+    flex-grow: 1;
+    overflow-y: auto;
+}
+
+/* Light Theme */
+.contact-info-page.light {
+    background-color: #0B1216;
+}
+
+.contact-info-page.light .page-title {
+    background-color: #F0F2F5;
+    color: #000;
+}
+
+/* Dark Theme */
+.contact-info-page.dark .contact-page {
+    background-color: #0B1216;
+}
+
+.contact-info-page.dark .page-title {
+    background-color: #202C33;
+}

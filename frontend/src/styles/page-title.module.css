@@ -1,0 +1,27 @@
+.page-title {
+    height: 100px;
+    padding: 0px 0px 10px 20px;
+    display: flex;
+    align-items: end;
+}
+
+.page-title h1 {
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.page-title h1 span {
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.page-title h1 span a {
+    display: flex;
+    align-items: center;
+}
+
+.page-title h1 span svg {
+    margin-right: 20px;
+    cursor: pointer;
+}

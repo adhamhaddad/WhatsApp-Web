@@ -1,0 +1,27 @@
+.contact-actions {
+    margin: 10px 0px;
+    background-color: #111B21;
+}
+
+.contact-actions button {
+    display: block;
+    width: 100%;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    color: #F15C6D;
+    font-size: 16px;
+    background-color: transparent;
+    cursor: pointer;
+}
+.contact-actions button:hover {
+    background-color: #202C33;
+}
+.contact-actions button span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    margin-right: 20px;
+}
