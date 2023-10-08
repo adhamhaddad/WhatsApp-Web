@@ -55,7 +55,7 @@ To contribute to this project, follow these steps:
 2. Create a branch for your feature or bug fix.
 3. Make your changes and commit them.
 4. Push your changes to your fork.
-5. Submit a pull request to this repository.
+5. Submit a pull request to this repository..
 
 ## License
 
